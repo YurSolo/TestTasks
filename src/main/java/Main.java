@@ -77,8 +77,6 @@ public class Main {
                 .max((c1, c2) -> Integer.compare(c1.age, c2.age))
                 .get();
         System.out.println(oldest.getName());
-
-        //Задача 4
     }
 
     /**
